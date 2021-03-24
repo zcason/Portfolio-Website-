@@ -1,0 +1,77 @@
+.portfolio-section {
+  display: flex;
+  justify-content: center;
+  /* padding: 0 10%; */
+}
+
+.portfolio-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio-header {
+  margin-top: 50px;
+  text-align: start;
+  font-size: 32px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
+}
+
+.group,
+.group-two {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  /* margin: 10px; */
+}
+
+.item img {
+  height: 200px;
+  border-radius: 12px;
+}
+.item p,
+.item h3,
+.item a {
+  color: white;
+}
+
+.item p {
+  font-size: 18px;
+}
+
+.item .tech-stack {
+  font-size: 14px;
+}
+
+.item span {
+  display: flex;
+  flex-direction: row;
+  margin: 15px auto 0 auto;
+  gap: 10px;
+}
+
+.item a {
+  color: #ff6600;
+  font-size: 18;
+  text-decoration: none;
+}
+
+.item a:hover {
+  color: #fff;
+}
+
+@media all and (min-width: 900px) {
+  .group-two {
+    flex-direction: row;
+    gap: 20px;
+  }
+}

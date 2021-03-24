@@ -1,0 +1,48 @@
+.services-section {
+  display: flex;
+  justify-content: center;
+}
+
+.services-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services-header {
+  margin-top: 50px;
+  text-align: end;
+  font-size: 32px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #ff6600;
+}
+
+.provided-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  border-radius: 12px;
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.icons {
+  color: #fff;
+  font-size: 100px;
+}
+
+@media all and (max-width: 750px) {
+  .provided-services {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

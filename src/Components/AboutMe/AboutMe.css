@@ -1,0 +1,34 @@
+.about-me-section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-me-header {
+  margin-top: 50px;
+  text-align: start;
+  font-size: 32px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
+}
+
+.about-me-container p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-list {
+  color: #fff;
+}

@@ -1,0 +1,54 @@
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-left: 5%;
+}
+
+.header-container {
+  flex: 1;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* Intro Header */
+
+.text-intro {
+  font-size: 42px;
+  color: #fff;
+}
+
+.text-name {
+  color: #ff6600;
+  font-size: 42px;
+  line-height: 10px;
+}
+
+/* Intro description */
+
+.text-description {
+  color: #fff;
+}
+
+.pic-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.circle-border {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+@media all and (min-width: 750px) {
+  .pic-container {
+    flex: 2;
+  }
+
+  .circle-border {
+    height: 450px;
+    width: 450px;
+  }
+}

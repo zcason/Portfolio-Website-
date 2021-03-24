@@ -1,0 +1,31 @@
+.tools-section {
+  display: flex;
+  justify-content: center;
+}
+
+.tools-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.tools-header {
+  margin-top: 50px;
+  text-align: end;
+  font-size: 32px;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #ff6600;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.icon-row img {
+  height: 100px;
+  width: 100px;
+}
