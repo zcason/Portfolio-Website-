@@ -21,7 +21,7 @@ const Portfolio = () => {
                         <p class="tech-stack"> Technology: HTML5, CSS3, JavaScript ES6, React, Node.js, Express.js, Mocha, Chai,
                             PostgreSQL, Vercel, Heroku. </p>
                         <span>
-                            <a class="p-link" href="https://col.zcason.vercel.app/">View App</a>
+                            <a class="p-link" href="https://col-eosin.vercel.app">View App</a>
                             <a class="p-link" href="https://github.com/zcason/COL-client">GitHub Repo (Client-Side)</a>
                             <a class="p-link" href="https://github.com/zcason/COL-server">GitHub Repo (Server-Side)</a>
                         </span>
