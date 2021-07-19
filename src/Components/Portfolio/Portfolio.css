@@ -19,6 +19,18 @@
   color: #fff;
 }
 
+.selector-box select {
+  height: 35px;
+  width: 150px;
+  border-style: none;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #1f1f1f;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 .group,
 .group-two {
   display: flex;

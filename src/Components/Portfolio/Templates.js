@@ -64,8 +64,8 @@ const projects  = {
             <div className="item">
                 <h3>Github Reopsitory Finder</h3>
                 <img src={repoFinder} alt="Github Reopsitory Finder - Zuri Cason" className="rounded" />
-                <p>This web-application is for finding repisitories on the github website. Github Repository Finder uses a search form to pinpoint 
-                specific repos based on the name, language, and allows them to be sorted by the amount of stargazer each repo has.
+                <p>This web-application is for finding repositories on the github website. Github Repository Finder uses a search form to pinpoint 
+                specific repos based on name, language, and allows them to be sorted by the amount of stargazer each repo has.
                 </p>
                 <p className="tech-stack"> Technology: HTML5, CSS3, JavaScript ES6, React, React Hooks, Redux, Jest, Enzyme, Vercel. </p>
                 <span>

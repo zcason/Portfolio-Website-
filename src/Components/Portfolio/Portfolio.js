@@ -10,13 +10,16 @@ const Portfolio = () => {
         <div id="portfolio" className="portfolio-section">
             <div className="portfolio-container">
                 <h3 className="portfolio-header">Portfolio</h3>
-                <label> 
-                    Project Type:
-                    <select value={projectType} onChange={(event) => setProjectType(event.target.value)}>
-                        <option value="fullstack">Full-Stack</option>
-                        <option value="frontend">Front-End</option>
+                <div className="selector-box">
+                    <select 
+                    aria-label="project-type-selector"
+                    value={projectType} 
+                    onChange={(event) => setProjectType(event.target.value)}
+                    >
+                            <option value="fullstack">Full-Stack</option>
+                            <option value="frontend">Front-End</option>
                     </select>
-                </label>
+                </div>
                 {projects[projectType]}
             </div>
         </div>
