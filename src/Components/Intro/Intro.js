@@ -13,7 +13,7 @@ const  Intro = () => {
             If you hire me, expect to get a dedicated and hard worker with a very creative mind.</p>
           </div>
           <div className="pic-container">
-            <img src={zuriPic} alt="Profile Photo" class="circle-border"/>
+            <img src={zuriPic} alt="Profile" class="circle-border"/>
           </div>
       </div>
     );
